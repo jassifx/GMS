@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Asia/Manila');
+date_default_timezone_set('Asia/Kolkata');
 $database = 'gms_db';
 $db = new PDO('mysql:host=localhost', 'root', '');
 $query = "CREATE DATABASE IF NOT EXISTS $database";
